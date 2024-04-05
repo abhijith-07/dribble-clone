@@ -1,0 +1,24 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+    .card {
+        @apply 
+        w-60
+        h-60
+        p-2
+        inline-block
+        text-center
+        justify-center
+        border-2
+        rounded-2xl
+    }
+
+    .card img {
+        @apply
+        rounded-t-2xl
+    }
+}
